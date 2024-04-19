@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-color: grey;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .yellow-streak {
+            background-color: yellow;
+            height: 50px;
+            width: 100%;
+        }
+        .header, .footer {
+            text-align: center;
+            padding: 20px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Doven</h1>
+    </div>
+    <div class="yellow-streak"></div>
+    <div class="footer">
+        <h1>Therapy</h1>
+    </div>
+</body>
+</html>
